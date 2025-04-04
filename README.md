@@ -16,7 +16,7 @@ A multi-signature wallet is a cryptocurrency wallet, in this instance available 
 
 For our purposes, we will be automating the 2nd and 3rd keys, and putting them on a time release schedule based on the configured input. Because this doesn't require the use of anyone else's obfuscated systems, we can also implement features like security levels (to make it more or less 'forgiving' if the user decides to back out) and auto-faucets pointed towards a static address.
 
-You have key 1, and when applicable, the wallet will automatically provide a hashed version of key 2 
+You have key 1, and when applicable, the wallet will automatically provide a hashed version of key 2. The third key will be given at the end of the time lock duration.
 
 ## How much will this cost?
 
